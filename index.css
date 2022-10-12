@@ -44,10 +44,6 @@ body {
     margin: auto;
 }
 
-.center {
-    
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -115,16 +111,18 @@ div>p {
 .pricingBox {
     display: flex;
     flex-direction: row;
-    margin: 1rem 0 0 0;
     align-items: center;
 }
 
 .price {
     color: hsl(158, 36%, 37%);
+    display: flex;
+    margin: 0;
 }
 
 .oldPrice {
     padding: 0 0 0 1rem;
+    text-decoration: line-through;
 }
 
 .AddToCart {
@@ -137,6 +135,7 @@ div>p {
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    margin-top: 1rem;
 }
 
 button>p {
